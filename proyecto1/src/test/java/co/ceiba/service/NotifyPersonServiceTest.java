@@ -29,7 +29,7 @@ public class NotifyPersonServiceTest {
 		
 		//Assert
 		System.out.println(message);
-		Assert.assertNotNull(message);
+		Assert.assertNull(message);
 
 	}
 }
